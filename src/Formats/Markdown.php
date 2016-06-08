@@ -2,6 +2,7 @@
 namespace Developpez\Formats;
 
 
+use Developpez\Utils\PortailAccessor;
 class Markdown
 {
 	public static function toHtml($source, PortailAccessor $accessor){

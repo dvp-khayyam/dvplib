@@ -2,6 +2,7 @@
 namespace Developpez\Formats;
 
 use GeSHi;
+use Developpez\Utils\PortailAccessor;
 
 class BBCode
 {
@@ -10,7 +11,7 @@ class BBCode
 		$source = static::processCodeBlocs($source); 
 		$source = static::processSmileys($source);		
 		$source = static::processPiecesJointes($source, $accessor);	
-
+		
 	    return $source;
 	}
 	
