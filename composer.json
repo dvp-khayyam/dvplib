@@ -1,0 +1,15 @@
+{
+    "name": "developpez/dvplib",
+    "license": "proprietary",
+    "type": "library",  
+    "autoload": {
+        "psr-4": {
+            "Developpez\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",        
+        "easybook/geshi" : "1.0.8.17",
+        "cebe/markdown" : "~1.0.1"        
+    }
+}
