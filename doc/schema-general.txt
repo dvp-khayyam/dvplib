@@ -1,0 +1,7 @@
+obtenu avec yuml.me
+
+[note: dvplib{bg:cornsilk}]-.->[PortailAccessor|+IUpload getByHash()]
+[PortailAccessorConcret côté portail]-.-^[PortailAccessor]
+
+[BBCode]--[note: dvplib]
+[Markdown]--[note: dvplib]
